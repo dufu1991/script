@@ -7,8 +7,11 @@
 // @description:zh-CN  居中谷歌搜索页面布局，兼容自动翻页脚本 https://greasyfork.org/zh-CN/scripts/419215-autopager。
 // @author       dufu1991
 // @match        https://www.google.com/search?*
+// @icon         https://raw.githubusercontent.com/dufu1991/script/main/userscript/google-search-center/google-search-center-icon.png
 // @grant        none
-// @license MIT
+// @license      MIT; https://github.com/dufu1991/script/blob/main/LICENSE
+// @homepageURL  https://github.com/dufu1991/script/blob/main/userscript/google-search-center/google-search-center.user.js
+// @supportURL   https://github.com/dufu1991/script/issues
 // ==/UserScript==
 
 (function() {
