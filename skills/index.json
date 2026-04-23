@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "repository": {
+    "name": "script",
+    "url": "https://github.com/dufu1991/script.git"
+  },
+  "skills": [
+    {
+      "name": "feat-gcm",
+      "type": "git-commit-splitting",
+      "description": "基于完整工作区改动，按功能拆分提交，并生成以 feat: 开头的中文提交信息。",
+      "entry": "skills/feat-gcm/SKILL.md",
+      "install_path": "skills/feat-gcm",
+      "triggers": [
+        "/feat-gcm"
+      ],
+      "use_for": [
+        "功能开发",
+        "功能拆分提交"
+      ]
+    },
+    {
+      "name": "fix-gcm",
+      "type": "git-commit-splitting",
+      "description": "基于完整工作区改动，按修复项拆分提交，并生成以 fix: 开头的中文提交信息。",
+      "entry": "skills/fix-gcm/SKILL.md",
+      "install_path": "skills/fix-gcm",
+      "triggers": [
+        "/fix-gcm"
+      ],
+      "use_for": [
+        "问题修复",
+        "修复拆分提交"
+      ]
+    }
+  ]
+}
